@@ -1,0 +1,86 @@
+:root {
+  --background: hsl(235, 18%, 26%);
+  --card-background: hsl(0, 0%, 100%);
+
+  /*button background*/
+  --primary-color: hsl(234, 29%, 20%);
+  --second-color: hsl(0, 0%, 29%);
+}
+body {
+  margin: 0;
+  padding: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background);
+}
+
+h2,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  font-size: 16px;
+  color: var(--second-color);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.newsletter-card {
+  display: flex;
+  justify-content: space-between;
+  max-width: 780px;
+  width: 100%;
+  padding: 20px 30px;
+  background-color: var(--card-background);
+  border-radius: 12px;
+  overflow: visible;
+  gap: 20px;
+}
+
+.newsletter-card .card-left {
+  align-content: center;
+}
+
+.newsletter-card h1 {
+  font-size: 40px;
+  color: var(--primary-color);
+}
+
+.newsletter-card p.card-desc {
+  margin: 20px 0;
+}
+
+.check-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.newsletter-email {
+  margin-top: 20px;
+}
+
+#form {
+  color: var(--primary-color);
+}
+
+#form button {
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
